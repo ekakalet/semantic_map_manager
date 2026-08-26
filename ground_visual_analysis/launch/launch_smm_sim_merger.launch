@@ -1,0 +1,25 @@
+<launch>
+	<arg name="drone_id" default="1" />
+        <arg name="NUMBER_POLYGONS" value="60" />
+	<arg name="NUMBER_VERTICES" value="15" />
+
+
+   	<node pkg="ground_visual_analysis" type="semantic_map_manager_merger" name="semantic_map_manager_merger" output="screen"  launch-prefix="xterm -hold -fn 10x20 -e">
+		
+		<env name="SMM_OUTPUT_FOLDER"      value="$(find ground_visual_analysis)/KML" />
+                <env name="NUMBER_POLYGONS"      value="$(arg NUMBER_POLYGONS)" />
+                <env name="NUMBER_VERTICES"      value="$(arg NUMBER_VERTICES)" />
+                
+                <param name="interface_test" value="false"/>
+                <param name="/interfaces/smm_ss" value="false"/>
+                <param name="/interfaces/smm_mc" value="false"/>
+                <param name="once_executed" value="false"/>
+
+        </node>
+
+	<rosparam command="load" file="$(find ground_visual_analysis)/config/BMMC_camera.yaml" />
+        <rosparam command="load" file="$(find ground_visual_analysis)/config/common_param.yaml" />
+        <param name="drone_id" value="$arg drone_id"/>
+        
+
+</launch>

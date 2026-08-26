@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Folder>
+  <Placemark>
+    <name>9</name>
+    <address>1</address>
+    <description>Origin Of Formation Point</description>
+    <Point>
+      <coordinates>
+            22.9772186,40.5818558,0
+          </coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>10</name>
+    <address>1</address>
+    <description>Reference Target Trajectory</description>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+            22.9772186,40.5818558,0
+            22.9763818,40.5822632,0
+            22.9754806,40.5831921,0
+            22.9744935,40.584121,0
+            22.9736137,40.5849032,0
+            22.9725838,40.5858973,0
+            22.9712749,40.5868913,0
+            22.9710174,40.5871683,0
+            22.9712749,40.5880971,0
+            22.9713607,40.5887489,0
+            22.9715323,40.5893844,0
+            22.972219,40.5893192,0
+            22.9727125,40.5893192,0
+            22.9730773,40.5892215,0
+            22.9729915,40.5887815,0
+            22.9729915,40.5882438,0
+            22.9730773,40.5879668,0
+            22.9730988,40.5877386,0
+            22.9730773,40.5876246,0
+          </coordinates>
+    </LineString>
+    <Style>
+      <LineStyle>
+        <color>ff000000</color>
+        <width>8</width>
+      </LineStyle>
+    </Style>
+  </Placemark>
+</Folder>

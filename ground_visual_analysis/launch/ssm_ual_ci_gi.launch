@@ -1,0 +1,10 @@
+<launch>
+    <!-- to be replaced with actual UAL node -->
+    <include file="$(find ual_dummy)/launch/test_drone1_stream.launch"/>
+    <include file="$(find ci_dummy)/launch/test_drone1_stream.launch"/>
+    <include file="$(find gi_dummy)/launch/test_drone1_stream.launch"/>
+    <include file="$(find synchronizer)/launch/test_drone1_stream.launch"/>
+   
+    <include file="$(find ground_visual_analysis)/launch/launch_smm_sim.launch"/>
+    <!-- four log files will be produced, two in drone_visual_analysis/log/drone_{}.log and one in ual_dummy/log/drone_{}.log for both pose and velocity; timestamps and sequence numbers match -->
+</launch>

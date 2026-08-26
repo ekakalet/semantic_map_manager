@@ -1,0 +1,8 @@
+<launch>
+
+	<rosparam command="load" file="$(find ground_visual_analysis)/config/crowd_detection_fromfiles_single.yaml" />
+	<include file="$(find gscam)/launch/drone1.launch"></include>
+
+	<node pkg="ground_visual_analysis" type="crowd_node.py" name="crowd_detection_for_single_drone" launch-prefix="xterm -hold -fn 10x20 -e"></node>
+
+</launch>

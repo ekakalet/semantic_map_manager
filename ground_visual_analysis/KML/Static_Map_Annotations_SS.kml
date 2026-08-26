@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>KML STRUCTURE</name>
+    <Folder>
+      <name>Annotations</name>
+      <Placemark>
+        <name>1
+</name>
+        <description>Landing Site/Regular Takeoff Site (re-charging/ relay stations)</description>
+        <Point>
+          <coordinates>
+            22.9662323,40.6832416,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1</name>
+        <description>Landing Site/Regular Takeoff Site (re-charging/ relay stations)</description>
+        <Point>
+          <coordinates>
+            22.9998779,40.669702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1</name>
+        <description>Landing Site/Regular Takeoff Site (re-charging/ relay stations)</description>
+        <Point>
+          <coordinates>
+            22.9930115,40.7045869,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2
+</name>
+        <description>no-fly zone</description>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                22.9992763,40.5169308,0
+                22.999963,40.5080567,0
+                22.9824543,40.5106669,0
+                22.9906936,40.4956571,0
+                23.0181581,40.4931769,0
+                23.0552351,40.5033582,0
+                23.0370399,40.5325881,0
+                23.0071724,40.5315444,0
+                22.9992763,40.5169308,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+        <Style>
+          <PolyStyle>
+            <color>#a00000ff</color>
+            <outline>0</outline>
+          </PolyStyle>
+        </Style>
+      </Placemark>
+      <Placemark>
+        <name>3
+</name>
+        <description>private area (swimming pool, garden)</description>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                23.0284381,40.5541458,0
+                23.0282021,40.5534692,0
+                23.0297256,40.553135,0
+                23.0299723,40.5538035,0
+                23.0284381,40.5541458,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+        <Style>
+          <PolyStyle>
+            <color>#a00000ff</color>
+            <outline>0</outline>
+          </PolyStyle>
+        </Style>
+      </Placemark>
+      <Placemark>
+        <name>4</name>
+        <description>Potential emergency landing sites</description>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                23.0336201,40.5580504,0
+                23.0330086,40.5573168,0
+                23.0329227,40.5571211,0
+                23.0336416,40.5569336,0
+                23.0339849,40.5570967,0
+                23.0342853,40.557276,0
+                23.0344033,40.5575776,0
+                23.0342638,40.5578547,0
+                23.0341244,40.5580748,0
+                23.0336201,40.5580504,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+        <Style>
+          <PolyStyle>
+            <color>#a0ff0000</color>
+            <outline>0</outline>
+          </PolyStyle>
+        </Style>
+      </Placemark>
+      <Placemark>
+        <name>5
+</name>
+        <description>POI (Point Of Interest)</description>
+        <Point>
+          <coordinates>
+            22.9518127,40.6319328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6
+</name>
+        <description>Crowd Gathering Location</description>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                22.9939556,40.6143434,0
+                22.9950714,40.6143434,0
+                22.9979038,40.6135615,0
+                22.9992771,40.6125842,0
+                23.0008221,40.6129751,0
+                23.0009937,40.6138873,0
+                22.9991055,40.6148646,0
+                22.9959297,40.6153207,0
+                22.9944706,40.6153858,0
+                22.9930973,40.6145388,0
+                22.9939556,40.6143434,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+        <Style>
+          <PolyStyle>
+            <color>#a000ff00</color>
+            <outline>0</outline>
+          </PolyStyle>
+        </Style>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

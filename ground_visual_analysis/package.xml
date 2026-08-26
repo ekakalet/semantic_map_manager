@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package>
+    <name>ground_visual_analysis</name>
+    <version>0.0.10</version>
+    <description>AUTH Ground Visual Information Analysis Package</description>
+    <maintainer email="danaitri22@gmail.com">danai</maintainer>
+    <license>MIT</license>
+    <buildtool_depend>catkin</buildtool_depend>
+    <build_depend>cv_bridge</build_depend>
+    <build_depend>roscpp</build_depend>
+    <build_depend>rospy</build_depend>
+    <build_depend>cv_bridge</build_depend>
+    <build_depend>image_transport</build_depend>
+    <build_depend>tf2_eigen</build_depend>
+
+    <build_depend>std_msgs</build_depend>
+    <build_depend>sensor_msgs</build_depend>
+    <build_depend>geometry_msgs</build_depend>
+    <build_depend>multidrone_msgs</build_depend>
+    <build_depend>visualanalysis_msgs</build_depend>
+
+    <run_depend>cv_bridge</run_depend>
+    <run_depend>roscpp</run_depend>
+    <run_depend>rospy</run_depend>
+    <run_depend>tf2_eigen</run_depend>
+
+    <run_depend>std_msgs</run_depend>
+    <run_depend>sensor_msgs</run_depend>
+    <run_depend>geometry_msgs</run_depend>
+    <run_depend>multidrone_msgs</run_depend>
+    <run_depend>visualanalysis_msgs</run_depend>
+    <run_depend>message_runtime</run_depend>
+
+    <export>
+    </export>
+</package>

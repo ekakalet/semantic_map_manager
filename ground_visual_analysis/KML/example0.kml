@@ -1,0 +1,364 @@
+	<kml dxmlns="http://www.opengis.net/kml/2.2">
+	  <Document>
+	    <name>KML STRUCTURE</name>
+	    <Folder>
+	      <name>Annotations</name>
+	      <Placemark>
+	        <name>1</name>
+	        <address>1</address>
+	        <description>Landing Site/Regular Takeoff Site (re-charging/ relay stations)</description>
+	        <Point>
+	          <coordinates>            -5.9311577,37.558576,7.89          </coordinates>
+	        </Point>
+	      </Placemark>
+	      <Placemark>
+	        <name>1</name>
+	        <address>2</address>
+	        <description>Landing Site/Regular Takeoff Site (re-charging/ relay stations)</description>
+	        <Point>
+	          <coordinates>            -6.9311125,37.5585771,7.89          </coordinates>
+	        </Point>
+	      </Placemark>
+	      <Placemark>
+	        <name>1</name>
+	        <address>3</address>
+	        <description>Landing Site/Regular Takeoff Site (re-charging/ relay stations)</description>
+	        <Point>
+	          <coordinates>            -7.9311549,37.558504,7.89          </coordinates>
+	        </Point>
+	      </Placemark>
+	      <Placemark>
+	        <name>1</name>
+	        <address>4</address>
+	        <description>Landing Site/Regular Takeoff Site (re-charging/ relay stations)</description>
+	        <Point>
+	          <coordinates>            -8.9311097,37.5585051,7.89          </coordinates>
+	        </Point>
+	      </Placemark>
+	      <Placemark>
+	        <name>1</name>
+	        <address>5</address>
+	        <description>Landing Site/Regular Takeoff Site (re-charging/ relay stations)</description>
+	        <Point>
+	          <coordinates>            -5.9311337,37.5585405,7.89          </coordinates>
+	        </Point>
+	      </Placemark>
+	      <Placemark>
+	        <name>2</name>
+	        <address>1</address>
+	        <description>no-fly zone</description>
+	        <Polygon>
+	          <outerBoundaryIs>
+	            <LinearRing>
+	              <tessellate>1</tessellate>
+	              <coordinates>                -5.9309699,37.5586933,7.89              -5.930789,37.5586978,7.89              -5.9307842,37.5585762,7.89              -5.9309652,37.5585718,7.89              -5.9309699,37.5586933,7.89              </coordinates>
+	            </LinearRing>
+	          </outerBoundaryIs>
+	        </Polygon>
+	        <Style>
+	          <PolyStyle>
+	            <color>#a00000ff</color>
+	            <outline>0</outline>
+	          </PolyStyle>
+	        </Style>
+	      </Placemark>
+	      <Placemark>
+	        <name>2</name>
+	        <address>2</address>
+	        <description>no-fly zone</description>
+	        <Polygon>
+	          <outerBoundaryIs>
+	            <LinearRing>
+	              <tessellate>1</tessellate>
+	              <coordinates>                -5.9306849,37.5586418,7.89                              -5.9305153,37.558646,7.89                              -5.9305132,37.558592,7.89                              -5.9306828,37.5585878,7.89                              -5.9306849,37.5586418,7.89                              </coordinates>
+	            </LinearRing>
+	          </outerBoundaryIs>
+	        </Polygon>
+	        <Style>
+	          <PolyStyle>
+	            <color>#a00000ff</color>
+	            <outline>0</outline>
+	          </PolyStyle>
+	        </Style>
+	      </Placemark>
+	      <Placemark>
+	        <name>2</name>
+	        <address>3</address>
+	        <description>no-fly zone</description>
+	        <Polygon>
+	          <outerBoundaryIs>
+	            <LinearRing>
+	              <tessellate>1</tessellate>
+	              <coordinates>                -5.9300634,37.5586662,7.89              -5.9299503,37.558669,7.89              -5.9299475,37.558597,7.89              -5.9300606,37.5585942,7.89              -5.9300634,37.5586662,7.89              </coordinates>
+	            </LinearRing>
+	          </outerBoundaryIs>
+	        </Polygon>
+	        <Style>
+	          <PolyStyle>
+	            <color>#a00000ff</color>
+	            <outline>0</outline>
+	          </PolyStyle>
+	        </Style>
+	      </Placemark>
+	      <Placemark>
+	        <name>2</name>
+	        <address>4</address>
+	        <description>no-fly zone</description>
+	        <Polygon>
+	          <outerBoundaryIs>
+	            <LinearRing>
+	              <tessellate>1</tessellate>
+	              <coordinates>                -5.9308267,37.5585031,7.89              -5.9306457,37.5585076,7.89              -5.9306436,37.5584536,7.89              -5.9308245,37.5584491,7.89              -5.9308267,37.5585031,7.89              </coordinates>
+	            </LinearRing>
+	          </outerBoundaryIs>
+	        </Polygon>
+	        <Style>
+	          <PolyStyle>
+	            <color>#a00000ff</color>
+	            <outline>0</outline>
+	          </PolyStyle>
+	        </Style>
+	      </Placemark>
+	      <Placemark>
+	        <name>2</name>
+	        <address>5</address>
+	        <description>no-fly zone</description>
+	        <Polygon>
+	          <outerBoundaryIs>
+	            <LinearRing>
+	              <tessellate>1</tessellate>
+	              <coordinates>                -5.9298973,37.5587605,7.89              -5.92981,37.5588437,7.89              -5.9297641,37.5588268,7.89              -5.9298849,37.5587337,7.89              -5.9298973,37.5587605,7.89              </coordinates>
+	            </LinearRing>
+	          </outerBoundaryIs>
+	        </Polygon>
+	        <Style>
+	          <PolyStyle>
+	            <color>#a00000ff</color>
+	            <outline>0</outline>
+	          </PolyStyle>
+	        </Style>
+	      </Placemark>
+	      <Placemark>
+	        <name>2</name>
+	        <address>6</address>
+	        <description>no-fly zone</description>
+	        <Polygon>
+	          <outerBoundaryIs>
+	            <LinearRing>
+	              <tessellate>1</tessellate>
+	              <coordinates>                -5.9297054,37.5590626,7.89              -5.9295471,37.5590665,7.89              -5.9295528,37.5589222,7.89              -5.9296998,37.5589186,7.89              -5.9297054,37.5590626,7.89              </coordinates>
+	            </LinearRing>
+	          </outerBoundaryIs>
+	        </Polygon>
+	        <Style>
+	          <PolyStyle>
+	            <color>#a00000ff</color>
+	            <outline>0</outline>
+	          </PolyStyle>
+	        </Style>
+	      </Placemark>
+	      <Placemark>
+	        <name>2</name>
+	        <address>7</address>
+	        <description>no-fly zone</description>
+	        <Polygon>
+	          <outerBoundaryIs>
+	            <LinearRing>
+	              <tessellate>1</tessellate>
+	              <coordinates>                -5.9296499,37.5593793,7.89              -5.9295142,37.5593827,7.89              -5.9295114,37.5593107,7.89              -5.9296471,37.5593073,7.89              -5.9296499,37.5593793,7.89              </coordinates>
+	            </LinearRing>
+	          </outerBoundaryIs>
+	        </Polygon>
+	        <Style>
+	          <PolyStyle>
+	            <color>#a00000ff</color>
+	            <outline>0</outline>
+	          </PolyStyle>
+	        </Style>
+	      </Placemark>
+	      <Placemark>
+	        <name>2</name>
+	        <address>8</address>
+	        <description>no-fly zone</description>
+	        <Polygon>
+	          <outerBoundaryIs>
+	            <LinearRing>
+	              <tessellate>1</tessellate>
+	              <coordinates>                -5.92937,37.5594584,7.89              -5.9292343,37.5594617,7.89              -5.9292308,37.5593717,7.89              -5.9293665,37.5593683,7.89              -5.92937,37.5594584,7.89              </coordinates>
+	            </LinearRing>
+	          </outerBoundaryIs>
+	        </Polygon>
+	        <Style>
+	          <PolyStyle>
+	            <color>#a00000ff</color>
+	            <outline>0</outline>
+	          </PolyStyle>
+	        </Style>
+	      </Placemark>
+	      <Placemark>
+	        <name>2</name>
+	        <address>9</address>
+	        <description>no-fly zone</description>
+	        <Polygon>
+	          <outerBoundaryIs>
+	            <LinearRing>
+	              <tessellate>1</tessellate>
+	              <coordinates>                -5.9292495,37.5595605,7.89              -5.9291365,37.5595633,7.89              -5.9291347,37.5595183,7.89              -5.9292478,37.5595155,7.89              -5.9292495,37.5595605,7.89              </coordinates>
+	            </LinearRing>
+	          </outerBoundaryIs>
+	        </Polygon>
+	        <Style>
+	          <PolyStyle>
+	            <color>#a00000ff</color>
+	            <outline>0</outline>
+	          </PolyStyle>
+	        </Style>
+	      </Placemark>
+	      <Placemark>
+	        <name>3</name>
+	        <address>1</address>
+	        <description>private area</description>
+	        <Polygon>
+	          <outerBoundaryIs>
+	            <LinearRing>
+	              <tessellate>1</tessellate>
+	              <coordinates>                -5.9304418,37.558792,7.89              -5.9301478,37.5587993,7.89              -5.9301401,37.5586013,7.89              -5.9304341,37.558594,7.89              -5.9304418,37.558792,7.89              </coordinates>
+	            </LinearRing>
+	          </outerBoundaryIs>
+	        </Polygon>
+	        <Style>
+	          <PolyStyle>
+	            <color>#a0FF00FF</color>
+	            <outline>0</outline>
+	          </PolyStyle>
+	        </Style>
+	      </Placemark>
+	      <Placemark>
+	        <name>4</name>
+	        <address>1</address>
+	        <description>Potential emergency landing sites</description>
+	        <Polygon>
+	          <outerBoundaryIs>
+	            <LinearRing>
+	              <tessellate>1</tessellate>
+	              <coordinates>                -5.9308719,37.558502,7.89              -6.9308493,37.5585025,7.89              -7.9308486,37.5584845,7.89              -8.9308712,37.558484,7.89              -5.9308719,37.558502,7.89              </coordinates>
+	            </LinearRing>
+	          </outerBoundaryIs>
+	        </Polygon>
+	        <Style>
+	          <PolyStyle>
+	            <color>#a0ffa500</color>
+	            <outline>0</outline>
+	          </PolyStyle>
+	        </Style>
+	      </Placemark>
+	      <Placemark>
+	        <name>4</name>
+	        <address>2</address>
+	        <description>Potential emergency landing sites</description>
+	        <Polygon>
+	          <outerBoundaryIs>
+	            <LinearRing>
+	              <tessellate>1</tessellate>
+	              <coordinates>                -5.9304196,37.5585132,7.89              -5.930397,37.5585138,7.89              -5.9303963,37.5584958,7.89              -5.9304189,37.5584952,7.89              -5.9304196,37.5585132,7.89              </coordinates>
+	            </LinearRing>
+	          </outerBoundaryIs>
+	        </Polygon>
+	        <Style>
+	          <PolyStyle>
+	            <color>#a0ffa500</color>
+	            <outline>0</outline>
+	          </PolyStyle>
+	        </Style>
+	      </Placemark>
+	      <Placemark>
+	        <name>4</name>
+	        <address>3</address>
+	        <description>Potential emergency landing sites</description>
+	        <Polygon>
+	          <outerBoundaryIs>
+	            <LinearRing>
+	              <tessellate>1</tessellate>
+	              <coordinates>                -5.929627,37.5587942,7.89              -5.9296044,37.5587948,7.89              -5.9296037,37.5587768,7.89              -5.9296263,37.5587762,7.89              -5.929627,37.5587942,7.89              </coordinates>
+	            </LinearRing>
+	          </outerBoundaryIs>
+	        </Polygon>
+	        <Style>
+	          <PolyStyle>
+	            <color>#a0ffa500</color>
+	            <outline>0</outline>
+	          </PolyStyle>
+	        </Style>
+	      </Placemark>
+	      <Placemark>
+	        <name>4</name>
+	        <address>4</address>
+	        <description>Potential emergency landing sites</description>
+	        <Polygon>
+	          <outerBoundaryIs>
+	            <LinearRing>
+	              <tessellate>1</tessellate>
+	              <coordinates>                -5.9292626,37.5593169,7.89              -5.92924,37.5593174,7.89              -5.9292393,37.5592994,7.89              -5.9292619,37.5592989,7.89              -5.9292626,37.5593169,7.89              </coordinates>
+	            </LinearRing>
+	          </outerBoundaryIs>
+	        </Polygon>
+	        <Style>
+	          <PolyStyle>
+	            <color>#a0ffa500</color>
+	            <outline>0</outline>
+	          </PolyStyle>
+	        </Style>
+	      </Placemark>
+	      <Placemark>
+	        <name>5</name>
+	        <address>1</address>
+	        <description>POI (Point Of Interest)</description>
+	        <Point>
+	          <coordinates>            -5.9291923,37.5595439,7.89          </coordinates>
+	        </Point>
+	      </Placemark>
+	      <Placemark>
+	        <name>6</name>
+	        <address>1</address>
+	        <description>Road</description>
+	        <Polygon>
+	          <outerBoundaryIs>
+	            <LinearRing>
+	              <tessellate>1</tessellate>
+	              <coordinates>                -5.9310786,37.5585779,7.89              -5.9299705,37.5586055,7.89              -5.9294446,37.559051,7.89              -5.9294633,37.5595281,7.89              -5.9288527,37.5595433,7.89              -5.9288499,37.5594713,7.89              -5.92937,37.5594584,7.89              -5.9293528,37.5590173,7.89              -5.9299337,37.5585343,7.89              -5.9310758,37.5585059,7.89              -5.9310786,37.5585779,7.89              </coordinates>
+	            </LinearRing>
+	          </outerBoundaryIs>
+	        </Polygon>
+	        <Style>
+	          <PolyStyle>
+	            <color>#a0b73a67</color>
+	            <outline>0</outline>
+	          </PolyStyle>
+	        </Style>
+	      </Placemark>
+	      <Placemark>
+	        <name>9</name>
+	        <address>1</address>
+	        <description>Origin Of Formation Point</description>
+	        <Point>
+	          <coordinates>            -5.9310772,37.5585419,7.89          </coordinates>
+	        </Point>
+	      </Placemark>
+	      <Placemark>
+	        <name>10</name>
+	        <address>1</address>
+	        <description>Reference Target Trajectory</description>
+	        <LineString>
+	          <tessellate>1</tessellate>
+	          <coordinates>            -5.9310772,37.5585419,7.89          -5.9299521,37.5585699,7.89          -5.9293987,37.5590342,7.89          -5.9294167,37.5594932,7.89          -5.9288502,37.5594803,7.89          -5.9294167,37.5594932,7.89          -5.9293987,37.5590342,7.89          -5.9299521,37.5585699,7.89          -5.9310772,37.5585419,7.89          </coordinates>
+	        </LineString>
+	        <Style>
+	          <LineStyle>
+	            <color>ff000000</color>
+	            <width>8</width>
+	          </LineStyle>
+	        </Style>
+	      </Placemark>
+	    </Folder>
+	  </Document>
+	</kml>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<kml>
+  <Document>
+    <Folder>
+      <name>Supervisor</name>
+    </Folder>
+    <Folder>
+      <name>Dashboard</name>
+    </Folder>
+  </Document>
+</kml>

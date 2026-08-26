@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <NetworkLink>
+    <name>NetworkLink example</name>
+    <Link>
+          <href>file:///home/pantelis/Code/ros/src/ground_visual_analysis/KML/Sample_clipper_result.kml</href>
+          <refreshMode>onInterval</refreshMode>
+          <refreshInterval>0.100</refreshInterval>
+    </Link>
+  </NetworkLink>
+</kml>
+

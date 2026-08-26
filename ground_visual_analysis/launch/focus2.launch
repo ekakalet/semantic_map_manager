@@ -1,0 +1,10 @@
+<launch>
+    <arg name="drone_id" default="2" />
+    <arg name="focus_peaking_camera_input" value="/drone_$(arg drone_id)/rtsp2ros/shooting_camera" />
+
+    <node pkg="ground_visual_analysis" type="focus_peaking.py" name="focus_peaking" ns="drone_$(arg drone_id)"
+          output="screen">
+          <param name="drone_id" value="$(arg drone_id)" />
+          <param name="camera_topic" value="$(arg focus_peaking_camera_input)" />
+    </node>
+</launch>

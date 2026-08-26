@@ -1,0 +1,88 @@
+# This file describes general parameters for the sensors on-board a drone
+#   - this should be interpreted as a sample parameter file and not used for important tasks
+#   - Partners need to discussion how to (re)define and use these and other parameters common to more than one node
+base:
+    rtk_base_location: [37.558542, -5.931074, 7.89]      # decimal latitude, longitude and altitude AGL in meters (WGS84?)
+    local_origin_location: [37.558542, -5.931074, 7.89]  # decimal latitude, longitude and altitude AGL in meters (WGS84?)
+    main_landing_location: [37.558542, -5.931074, 7.89]  # decimal latitude, longitude and altitude AGL in meters (WGS84?)
+
+drone_parameters:
+    mass: 
+        total: 10.5         # total mass of drone (with batteries and all required sensors) [kg]
+        frame: 3.0          # mass of the frame (without batteries) [kg]
+        core: 3.0           # mass of the drone core [kg]
+        payload: 3.0        # mass of the drone payload [kg]
+        bateries: 1.5       # mass of the drone batteries [kg]
+    total_diameter: 2.0     # total multirotor diameters (with blades) [m]
+    number_arms: 8          # number of multirotor arms
+    motors_per_arm: 1       # number of motors for each multirotor
+    blade_diameter: 0.4     # number of motors for each multirotor arm [m]
+    frame_reference_point:  # reference point (REF) relative to which the remaining sensors' mounting position can be defined
+        description: "Point located at the center of the top plate of the frame, above the power distribution board." # human readable description
+        height_above_ground: 0.5  # accounts for dimensions of landing gear
+
+drone_sensors:
+
+  - name: Autopilot         # As the autopilot contains the IMU we are going to use, it represents a fundamental point in the body reference frame
+    type: Pixhawk2
+    mass: 0.100             # mass of the sensor [kg]
+    mount_position: [0.0, 0.0, 0.0]   # relative to the body frame defined below [meters]
+    mount_attitude_matrix: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0] # row wise R = [row1, row2, row3]
+    body_frame_type: NED    # NED (x-axis pointing forwards), ENU (y-axis pointing forward)
+    body_frame_origin: REF  # REF (frame reference point), CG (center of gravity), IMU (center at IMU/Autopilot origin - easier to take relative measurements than CG)
+
+  - name: GPS               # The GPS relative location concerns the antenna location and not the receiver board
+    type: Here+
+    mass: 0.050             # mass of the sensor [kg]
+    mount_position: [0.0, 0.0, -0.15]  # relative to the body frame defined below [meters]
+    body_frame_type: NED    # NED (x-axis pointing forwards), ENU (y-axis pointing forward)
+    body_frame_origin: IMU  # REF (frame reference point), CG (center of gravity), IMU (center at IMU center)
+
+  - name: LIDAR
+    type: VelodynePuck
+    mass: 0.830             # mass of the sensor [kg]
+    mount_position: [0.0, 0.0, 0.15]   # relative to the body frame defined below [meters]
+    mount_attitude_matrix: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0] # row wise R = [row1, row2, row3]
+    body_frame_type: NED    # NED (x-axis pointing forwards), ENU (y-axis pointing forward)
+    body_frame_origin: REF  # REF (frame reference point), CG (center of gravity), IMU (center at IMU center)
+    number_channels: 16     # 1 if 2-D lidar, n-channels if 3-D lidar
+    horizontal_fov: 360     # [degrees]
+    vertical_fov: 30        # [degrees]
+
+  - name: LIDAR
+    type: LeddarM16
+    mass: 0.100             # mass of the sensor [kg]
+    mount_position: [0.0, 0.0, 0.15]   # relative to the body frame defined below [meters]
+    mount_attitude_matrix: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0] # row wise R = [row1, row2, row3]
+    body_frame_type: NED    # NED (x-axis pointing forwards), ENU (y-axis pointing forward)
+    body_frame_origin: IMU  # REF (frame reference point), CG (center of gravity), IMU (center at IMU center)
+    number_channels: 1      # 1 if 2-D lidar, n-channels if 3-D lidar
+    horizontal_fov: 45      # [degrees]
+    vertical_fov: 7.5       # [degrees]
+
+  - name: CineCamera        # These parameters may represent the position of the camera reference frame at rest (CG of camera in Gimbal with zeros angle references)
+    type: BMMC
+    mass: 1.000             # mass of the sensor [kg]
+    mount_position: [0.0, 0.0, 0.15]   # relative to the body frame defined below [meters]
+    mount_attitude_matrix: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0] # row wise R = [row1, row2, row3]
+    body_frame_type: NED    # NED (x-axis pointing forwards), ENU (y-axis pointing forward)
+    body_frame_origin: IMU  # REF (frame reference point), CG (center of gravity), IMU (center at IMU center)
+    pixel_size_x: 0.0065    # according to camera specifications [milimeters]
+    pixel_size_y: 0.0065    # according to camera specifications [milimeters]
+    calibration_parameters:
+        - focal_length: 14  # according to camera specifications [milimeters]
+          file: BMMC_camera.yaml # either a *.yaml file or the string NA, as in "Not Available"
+        - focal_length: 42  # according to camera specifications [milimeters]
+          file: NA          # either a *.yaml file or the string NA, as in "Not Available"
+
+  - name: NavCamera         # These parameters may represent the position of the camera reference frame at rest (CG of camera in Gimbal with zeros angle references)
+    type: FPV
+    mass: 0.100             # mass of the sensor [kg]
+    mount_position: [0.1, 0.0, 0.05]   # relative to the body frame defined below [meters]
+    mount_attitude_matrix: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0] # row wise R = [row1, row2, row3]
+    body_frame_type: NED    # NED (x-axis pointing forwards), ENU (y-axis pointing forward)
+    body_frame_origin: IMU  # REF (frame reference point), CG (center of gravity), IMU (center at IMU center)
+    calibration_parameters:
+        - focal_length: 0   # [milimeters]
+          file: NA          # either a *.yaml file or the string NA, as in "Not Available"
+    

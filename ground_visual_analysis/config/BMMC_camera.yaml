@@ -1,0 +1,25 @@
+# This file describes the camera calibration parameters of DW's BMMC camera:
+#   - the zoom was set at is minimum (widest FoV possible), with focal length at 14 mm (assumed according to camera specs).
+#   - Note: this should be interpreted as a sample parameter file and not used for important tasks
+#   - Calibration performed at IST (@20/03/2018)
+image_width: 1920
+image_height: 1080
+camera_name: BMMCC
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [2198.667828498563, 0, 900.259497081249, 0, 2199.618111845675, 590.2505880129497, 0, 0, 1]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.292284859538237, 0.1807855792465895, 0.0007268214948628701, 0.000832592867622165, 0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [2078.61572265625, 0, 895.176294939738, 0, 0, 2159.400146484375, 592.3272122397393, 0, 0, 0, 1, 0]
+ 
